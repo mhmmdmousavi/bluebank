@@ -1,4 +1,4 @@
-# Created by venv; see https://docs.python.org/3/library/venv.html
+
 
 ../env/
 env/
@@ -9,3 +9,47 @@ env/
 *.pyc
 
 local_*.py
+# فایل‌های مربوط به Virtual Environment
+venv/
+env/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# فایل‌های موقتی سیستم‌عامل
+.DS_Store
+Thumbs.db
+
+# فایل‌های مربوط به IDE و ادیتورها
+.vscode/
+.idea/
+*.sublime-workspace
+
+# تنظیمات دیتابیس محلی
+db.sqlite3
+*.sqlite3
+
+# اطلاعات مربوط به migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# فایل‌های مربوط به log و cache
+*.log
+*.pot
+*.mo
+*.swp
+*.swo
+*.swn
+*.swd
+*.swo
+
+# فایل‌های استاتیک و مدیا (اختیاری، اگر استاتیک‌ها را از مخزن خارج می‌کنید)
+staticfiles/
+media/
+
+# فایل‌های مربوط به Docker (اگر از Docker استفاده می‌کنید)
+docker-compose.override.yml
+
+# فایل‌های حساس
+.env
